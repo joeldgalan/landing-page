@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,*:after,*:before {
@@ -24,6 +25,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     min-width: 125px;
+    max-width: 135px;
     height: 37px;
     padding: 8px 25px;
     border-style: hidden;
@@ -53,6 +55,10 @@ nav ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+li :hover {
+    color: #3882F6;
 }
 
 .hero-main {
@@ -91,7 +97,7 @@ a {
 
 #img-placeholder {
     width: 50%;
-    height: 250px;
+    height: 100%;
 }
 
 .left h1 {
@@ -189,7 +195,6 @@ a {
 
 #sign-up button {
     border: 2px solid white;
-
 }
 
 footer {
