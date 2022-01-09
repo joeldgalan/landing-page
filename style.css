@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*:after,*:before {
+    box-sizing: inherit;
+  }
+
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section {
+    height: 400px;
+    width: 100vw;
+    padding: 100px 200px;
+}
+
+button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 125px;
+    padding: 8px 25px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: #1F2937;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 100;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+#img-placeholder {
+    width: 50%;
+    height: 250px;
+}
+
+.left h1 {
+    padding: 0;
+    margin: 0;
+}
+
+#img-placeholder {
+    background-color: rgba(160, 160, 160, 0.5);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #1F2937;
+}
+
+#info h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+#blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.info-block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block div {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.info-block p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777;
+}
+
+#quote-sec {
+    background-color: #E5E7EB;
+    padding: 70px 200px;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+#author {
+    text-align: end;
+    font-size: 18px;
+}
